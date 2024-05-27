@@ -1,4 +1,9 @@
 /* header and nav layout */
+
+header{
+  --background-color: rgb(43, 41, 41);
+}
+
 header .nav-wrapper {
   background-color: var(--background-color);
   width: 100%;
@@ -272,4 +277,9 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+.nav-wrapper{
+  background-color: rgb(0, 0, 0);
+  color: white;
 }

@@ -168,3 +168,7 @@
       --slide-content-width: auto;
     }
   }
+
+  .offers{
+    background-color: rgb(21, 94, 50);
+  }
