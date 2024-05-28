@@ -1,7 +1,7 @@
 /* header and nav layout */
 
 header{
-  --background-color: rgb(43, 41, 41);
+  --background-color: rgb(39, 39, 39);
 }
 
 header .nav-wrapper {
@@ -147,9 +147,10 @@ header nav[aria-expanded="true"] .nav-hamburger-icon::after {
 header .nav-brand {
   grid-area: brand;
   flex-basis: 128px;
-  font-size: var(--heading-font-size-s);
+  font-size: 35px;
   font-weight: 700;
   line-height: 1;
+  text-shadow: 2px 2px white;
 }
 
 header nav .nav-brand img {
@@ -266,7 +267,7 @@ header nav .nav-sections ul > li > ul > li {
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-bottom: 8px solid var(--light-color);
+    /*border-bottom: 8px solid var(--light-color);*/
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
@@ -283,3 +284,4 @@ header nav .nav-tools {
   background-color: rgb(0, 0, 0);
   color: white;
 }
+

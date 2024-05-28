@@ -16,3 +16,9 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+
+.footer.block > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
