@@ -14,7 +14,7 @@
   /* colors */
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
-  --background-color: rgb(224, 246, 252);
+  --background-color: rgb(244, 244, 244);
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
@@ -223,7 +223,7 @@ main .section {
 
 @media (width >= 900px) {
   .section > div {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
   }
 }
